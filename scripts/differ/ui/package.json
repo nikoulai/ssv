@@ -7,7 +7,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "13.4.10",
     "prism-themes": "^1.9.0",
     "react": "^18.2.0",
     "react-diff-view": "^3.0.3",
