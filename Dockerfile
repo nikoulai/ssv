@@ -45,7 +45,7 @@ RUN --mount=type=cache,target=/root/.cache/go-build \
 #
 # STEP 3: Prepare image to run the binary
 #
-FROM alpine:3.12 AS runner
+FROM alpine:3.18.3 AS runner
 
 # Install ca-certificates, bash
 RUN apk -v --update add ca-certificates bash make  bind-tools && \
